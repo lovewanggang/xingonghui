@@ -1,0 +1,535 @@
+{
+	"easycom": {
+		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [
+		{
+			"path": "pages/common_hollow/hollow", //首页广告
+			"style": {
+				"navigationBarTitleText": "首页",
+				"app-plus":{
+					// 将回弹属性关掉
+					"bounce":"none"
+				}
+			}
+		},
+		{
+			"path": "pages/job_details/certificate", 
+			"style": {
+				"navigationBarTitleText": "首页",
+				"app-plus":{
+					// 将回弹属性关掉
+					"bounce":"none"
+				}
+			}
+		},
+		{
+			"path": "pages/job_details/information", 
+			"style": {
+				"navigationBarTitleText": "首页",
+				"app-plus":{
+					// 将回弹属性关掉
+					"bounce":"none"
+				}
+			}
+		},
+		{
+			"path": "pages/job_details/evaluation", 
+			"style": {
+				"navigationBarTitleText": "首页",
+				"app-plus":{
+					// 将回弹属性关掉
+					"bounce":"none"
+				}
+			}
+		},
+		
+		{
+			"path": "pages/job_details/experience", 
+			"style": {
+				"navigationBarTitleText": "首页",
+				"app-plus":{
+					// 将回弹属性关掉
+					"bounce":"none"
+				}
+			}
+			
+		},
+		{
+			"path": "pages/job_details/professional", 
+			"style": {
+				"navigationBarTitleText": "首页",
+				"app-plus":{
+					// 将回弹属性关掉
+					"bounce":"none"
+				}
+			}
+			
+		},
+		{
+			"path": "pages/recruite_details/index", //首页广告
+			"style": {
+				"navigationBarTitleText": "首页",
+				"app-plus":{
+					// 将回弹属性关掉
+					"bounce":"none"
+				}
+			}
+			
+		},
+		{
+			"path": "pages/job_details/index", //简历详情
+			"style": {
+				"navigationBarTitleText": "详情",
+				"app-plus":{
+					// 将回弹属性关掉
+					"bounce":"none"
+				}
+			}
+			
+		},
+		{
+			"path": "pages/job_currency_set/index", 
+			"style": {
+				"navigationBarTitleText": "设置",
+				"app-plus":{
+					// 将回弹属性关掉
+					"bounce":"none"
+				}
+			}
+			
+		},
+		{
+			"path": "pages/job_tuijian/index", //简历
+			"style": {
+				"navigationBarTitleText": "简历",
+				"app-plus":{
+					// 将回弹属性关掉
+					"bounce":"none"
+				}
+			}
+			
+		},
+		{
+			"path": "pages/job_resume/index", //简历
+			"style": {
+				"navigationBarTitleText": "简历",
+				"app-plus":{
+					// 将回弹属性关掉
+					"bounce":"none"
+				}
+			}
+			
+		},
+		
+		{
+			"path": "pages/common_character/character",  //选择角色
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus":{
+					// 将回弹属性关掉
+					"bounce":"none"
+				}
+			}
+		},
+		{
+			"path": "pages/recruiter_soso/soso",  //sousuo
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus":{
+					// 将回弹属性关掉
+					"bounce":"none"
+				}
+			}
+		},
+		{
+			"path": "pages/common_login/login",   //登录 注册 冻结 找回
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus":{
+					// 将回弹属性关掉
+					"bounce":"none"
+				}
+				
+			}
+		},
+		{
+			"path": "pages/receive_resume/index",   //登录 注册 冻结 找回
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus":{
+					// 将回弹属性关掉
+					"bounce":"none"
+				}
+			}
+		},
+		{
+			"path": "pages/recruiter_address/index",   //登录 注册 冻结 找回
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus":{
+					// 将回弹属性关掉
+					"bounce":"none"
+				}
+			}
+		},
+		{
+			"path": "pages/recruiter_resume/resume",   //搜索简历
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus":{
+					// 将回弹属性关掉
+					"bounce":"none"
+				}
+			}
+		},
+
+		{
+			"path": "pages/recruiter_perfect/perfect",   //完善机构
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus":{
+					// 将回弹属性关掉
+					"bounce":"none"
+				}
+			}
+		},
+		{
+			"path": "pages/recruiter_index/index",   //完善机构
+			"name":"recruiterindex",
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus":{
+					// 将回弹属性关掉
+					"bounce":"none"
+				}
+				
+			}
+		},
+		{
+			"path": "pages/job_index/index",   //完善机构
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus":{
+					// 将回弹属性关掉
+					"bounce":"none"
+				}
+			}
+		}
+	    ,{
+            "path" : "pages/recruiter_currency_set/index", //通用设置
+            "style" : {
+				"navigationBarTitleText": "通用设置",
+				"app-plus":{
+					// 将回弹属性关掉
+					"bounce":"none"
+				}
+			}
+        }
+        ,{
+            "path" : "pages/recruiter_account_set/account_set",//帳號設置
+            "style" : {
+					"navigationBarTitleText": "帳號設置",
+					"app-plus":{
+						// 将回弹属性关掉
+						"bounce":"none"
+					}
+			}
+        }
+        ,{
+            "path" : "pages/recruiter_agreement/recruiter_agreement", //协议
+            "style" : {
+					"navigationBarTitleText": "协议",
+					"app-plus":{
+						// 将回弹属性关掉
+						"bounce":"none"
+					}
+			}
+        },{
+            "path" : "pages/recruiter_agreement/recruiter_agreement_details", //协议详情
+            "style" : {
+					"navigationBarTitleText": "协议详情",
+					"app-plus":{
+						// 将回弹属性关掉
+						"bounce":"none"
+					}
+			}
+        }
+        ,{
+            "path" : "pages/recruiter_admin_set/recruiter_admin_set",//管理员设置
+            "style" : {
+					"navigationBarTitleText": "管理员设置",
+					"app-plus":{
+						// 将回弹属性关掉
+						"bounce":"none"
+					}
+			}
+        }
+        ,{
+            "path" : "pages/recruiter_shield_user/recruiter_shield_user",//屏蔽用戶
+			"style" : {
+				"navigationBarTitleText": "屏蔽用戶",
+				"app-plus":{
+					// 将回弹属性关掉
+					"bounce":"none"
+				}
+			}
+        },
+		{
+		    "path" : "pages/job_vip/job_vip",
+		    "style" : {
+				"style" : {
+					"navigationBarTitleText": "job_VIP",
+					"app-plus":{
+						// 将回弹属性关掉
+						"bounce":"none"
+					}
+				}
+			}
+		},
+		{
+		    "path" : "pages/job_shield_user/job_shield_user",
+		    "style" : {
+					"navigationBarTitleText": "job_shield_user",
+					"app-plus":{
+						// 将回弹属性关掉
+						"bounce":"none"
+					}
+			}
+		},
+		{
+		    "path" : "pages/job_agreement/job_agreement_details",
+		    "style" : {
+					"navigationBarTitleText": "job_agreement_details",
+					"app-plus":{
+						// 将回弹属性关掉
+						"bounce":"none"
+					}
+			}
+		},
+		{
+		    "path" : "pages/job_agreement/job_agreement",
+		    "style" : {
+					"navigationBarTitleText": "job_agreement",
+					"app-plus":{
+						// 将回弹属性关掉
+						"bounce":"none"
+					}
+			}
+		},
+		{
+            "path" : "pages/recruiter_vip/recruiter_vip",
+            "style" : {
+					"navigationBarTitleText": "VIP",
+					"app-plus":{
+						// 将回弹属性关掉
+						"bounce":"none"
+					}
+			}
+        },{
+            "path" : "pages/recruiter_vip/recruiter_vipRecord",
+            "style" : {
+					"navigationBarTitleText": "訂單記錄",
+					"app-plus":{
+						// 将回弹属性关掉
+						"bounce":"none"
+					}
+			}
+        },{
+            "path" : "pages/job_vip/job_vipRecord",
+            "style" : {
+					"navigationBarTitleText": "訂單記錄",
+					"app-plus":{
+						// 将回弹属性关掉
+						"bounce":"none"
+					}
+			}
+        },{
+            "path" : "pages/job_news/index",
+            "style" : {
+					"navigationBarTitleText": "",
+					"app-plus":{
+						// 将回弹属性关掉
+						"bounce":"none"
+					}
+			}
+        },{
+            "path" : "pages/job_shoucang/index",
+            "style" : {
+					"navigationBarTitleText": "",
+					"app-plus":{
+						// 将回弹属性关掉
+						"bounce":"none"
+					}
+			}
+        },{
+            "path" : "pages/job_shoucang/details",
+            "style" : {
+					"navigationBarTitleText": "",
+					"app-plus":{
+						// 将回弹属性关掉
+						"bounce":"none"
+					}
+			}
+        },{
+		    "path" : "pages/job_sosolist/index",
+		    "style" : {
+					"navigationBarTitleText": "",
+					"app-plus":{
+						// 将回弹属性关掉
+						"bounce":"none"
+					}
+			}
+		},
+		{
+		    "path" : "pages/job_sosolist/details",
+		    "style" : {
+					"navigationBarTitleText": "",
+					"app-plus":{
+						// 将回弹属性关掉
+						"bounce":"none"
+					}
+			}
+		},
+		{
+		    "path" : "pages/job_recording/index",
+		    "style" : {
+					"navigationBarTitleText": "",
+					"app-plus":{
+						// 将回弹属性关掉
+						"bounce":"none"
+					}
+			}
+		},
+		{
+		    "path" : "pages/job_recording/details",
+		    "style" : {
+					"navigationBarTitleText": "",
+					"app-plus":{
+						// 将回弹属性关掉
+						"bounce":"none"
+					}
+			}
+		}
+		
+        ,{
+            "path" : "pages/recruiter_news/recruiter_news",
+            "style" : {
+					"navigationBarTitleText": "消息",
+					"app-plus":{
+						// 将回弹属性关掉
+						"bounce":"none"
+					}
+			}
+        }
+        ,{
+            "path" : "pages/recruiter_article/recruiter_article",
+            "style" : {
+					"navigationBarTitleText": "文章詳情",
+					"app-plus":{
+						// 将回弹属性关掉
+						"bounce":"none"
+					}
+			}
+        }
+        ,{
+            "path" : "pages/recruiter_mechanism/recruiter_mechanism",
+            "style" : {
+					"navigationBarTitleText": "機構信息",
+					"app-plus":{
+						// 将回弹属性关掉
+						"bounce":"none"
+					}
+			}
+        }
+        ,{
+            "path" : "pages/recruiter_position/recruiter_position",
+			"style" : {
+				"navigationBarTitleText": "招聘職位",
+				"app-plus":{
+					// 将回弹属性关掉
+					"bounce":"none"
+				}
+			}
+        },{
+            "path" : "pages/recruiter_position/recruiter_addposition",
+			"style" : {
+				"navigationBarTitleText": "添加職位",
+				"app-plus":{
+					// 将回弹属性关掉
+					"bounce":"none"
+				}
+			}
+        }
+        ,{
+            "path" : "pages/recruiter_resumeDetails/recruiter_resumeDetails",
+            "style" : {
+				"navigationBarTitleText": "簡歷詳情",
+				"app-plus":{
+					// 将回弹属性关掉
+					"bounce":"none"
+				}
+			}
+        },
+		{
+		    "path" : "pages/job_soso/index",
+		    "style" : {
+				"navigationBarTitleText": "",
+				"app-plus":{
+					// 将回弹属性关掉
+					"bounce":"none"
+				}
+			}
+		},
+		{
+		    "path" : "pages/common_forin/forin",
+		    "style" : {
+				"navigationBarTitleText": "",
+				"app-plus":{
+					// 将回弹属性关掉
+					"bounce":"none"
+				}
+			}
+		},
+		{
+		    "path" : "pages/recruite_sosolist/sosolist",
+		    "style" : {
+				"navigationBarTitleText": "搜索结果",
+				"app-plus":{
+					// 将回弹属性关掉
+					"bounce":"none"
+				}
+			}
+		}
+        ,{
+            "path" : "pages/recruiter_collection/recruiter_collection",
+            "style" : {
+				"navigationBarTitleText": "收藏簡歷",
+				"app-plus":{
+					// 将回弹属性关掉
+					"bounce":"none"
+				}
+			}
+        }
+    
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "新公会",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {
+			"titleNView": false 
+		}
+	},
+	"condition" : { 
+		"current": 0,
+		"list": [
+			{
+				"name": "", 
+				"path": "", 
+				"query": "" 
+			}
+		]
+	}
+}
